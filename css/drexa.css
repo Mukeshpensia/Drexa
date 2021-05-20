@@ -1,0 +1,704 @@
+/* raleway */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Bold.eot');
+    src: url('../webfonts/ralwey/Raleway-Bold.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Bold.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Bold.woff') format('woff'), url('../webfonts/ralwey/Raleway-Bold.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Bold.svg#../webfonts/ralwey/Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Black.eot');
+    src: url('../webfonts/ralwey/Raleway-Black.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Black.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Black.woff') format('woff'), url('../webfonts/ralwey/Raleway-Black.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Black.svg#../webfonts/ralwey/Raleway-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-BlackItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-BlackItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-BlackItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-BlackItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-BlackItalic.svg#../webfonts/ralwey/Raleway-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-ExtraBold.eot');
+    src: url('../webfonts/ralwey/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-ExtraBold.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-ExtraBold.woff') format('woff'), url('../webfonts/ralwey/Raleway-ExtraBold.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-ExtraBold.svg#../webfonts/ralwey/Raleway-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-BoldItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-BoldItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-BoldItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-BoldItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-BoldItalic.svg#../webfonts/ralwey/Raleway-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-ExtraBoldItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-ExtraBoldItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-ExtraBoldItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-ExtraBoldItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-ExtraBoldItalic.svg#../webfonts/ralwey/Raleway-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-ExtraLightItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-ExtraLightItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-ExtraLightItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-ExtraLightItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-ExtraLightItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-ExtraLightItalic.svg#../webfonts/ralwey/Raleway-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Italic.eot');
+    src: url('../webfonts/ralwey/Raleway-Italic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Italic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Italic.woff') format('woff'), url('../webfonts/ralwey/Raleway-Italic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Italic.svg#../webfonts/ralwey/Raleway-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-ExtraLight.eot');
+    src: url('../webfonts/ralwey/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-ExtraLight.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-ExtraLight.woff') format('woff'), url('../webfonts/ralwey/Raleway-ExtraLight.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-ExtraLight.svg#../webfonts/ralwey/Raleway-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-MediumItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-MediumItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-MediumItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-MediumItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-MediumItalic.svg#../webfonts/ralwey/Raleway-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Medium.eot');
+    src: url('../webfonts/ralwey/Raleway-Medium.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Medium.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Medium.woff') format('woff'), url('../webfonts/ralwey/Raleway-Medium.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Medium.svg#../webfonts/ralwey/Raleway-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Light.eot');
+    src: url('../webfonts/ralwey/Raleway-Light.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Light.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Light.woff') format('woff'), url('../webfonts/ralwey/Raleway-Light.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Light.svg#../webfonts/ralwey/Raleway-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-LightItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-LightItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-LightItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-LightItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-LightItalic.svg#../webfonts/ralwey/Raleway-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Thin.eot');
+    src: url('../webfonts/ralwey/Raleway-Thin.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Thin.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Thin.woff') format('woff'), url('../webfonts/ralwey/Raleway-Thin.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Thin.svg#../webfonts/ralwey/Raleway-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-SemiBoldItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-SemiBoldItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-SemiBoldItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-SemiBoldItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-SemiBoldItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-SemiBoldItalic.svg#../webfonts/ralwey/Raleway-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-Regular.eot');
+    src: url('../webfonts/ralwey/Raleway-Regular.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-Regular.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-Regular.woff') format('woff'), url('../webfonts/ralwey/Raleway-Regular.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-Regular.svg#../webfonts/ralwey/Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-SemiBold.eot');
+    src: url('../webfonts/ralwey/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-SemiBold.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-SemiBold.woff') format('woff'), url('../webfonts/ralwey/Raleway-SemiBold.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-SemiBold.svg#../webfonts/ralwey/Raleway-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../webfonts/ralwey/Raleway-ThinItalic.eot');
+    src: url('../webfonts/ralwey/Raleway-ThinItalic.eot?#iefix') format('embedded-opentype'), url('../webfonts/ralwey/Raleway-ThinItalic.woff2') format('woff2'), url('../webfonts/ralwey/Raleway-ThinItalic.woff') format('woff'), url('../webfonts/ralwey/Raleway-ThinItalic.ttf') format('truetype'), url('../webfonts/ralwey/Raleway-ThinItalic.svg#../webfonts/ralwey/Raleway-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Showcard Gothic';
+    src: url('../webfonts/ShowcardGothic-Reg.eot');
+    src: url('../webfonts/ShowcardGothic-Reg.eot?#iefix') format('embedded-opentype'), url('../webfonts/ShowcardGothic-Reg.woff2') format('woff2'), url('../webfonts/ShowcardGothic-Reg.woff') format('woff'), url('../webfonts/ShowcardGothic-Reg.ttf') format('truetype'), url('../webfonts/ShowcardGothic-Reg.svg#ShowcardGothic-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Yusei Magic';
+    src: url('../webfonts/YuseiMagic-Regular.eot');
+    src: url('../webfonts/YuseiMagic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/YuseiMagic-Regular.woff2') format('woff2'),
+        url('../webfonts/YuseiMagic-Regular.woff') format('woff'),
+        url('../webfonts/YuseiMagic-Regular.ttf') format('truetype'),
+        url('../webfonts/YuseiMagic-Regular.svg#YuseiMagic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    color: #444;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family:Raleway;
+}
+/* .font-14{
+    font-size: 14px;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+.overflow-x{
+    overflow-x: hidden;
+}
+.kids{
+    font-family:Showcard Gothic;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.grey-bg{
+    background-color: #444 !important; 
+}
+.dib{
+    display: inline-block;
+}
+.container-14{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container-14 {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container-14 {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container-14 {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container-14{
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1440px) {
+    .container-14{
+      max-width: 1400px;
+    }
+}
+
+.section-pb{
+    padding: 0 0 80px 0;
+}
+.section-pt{
+    padding: 80px 0 0 0;
+}
+.section{
+    padding: 80px 0px;
+}
+.section-mb{
+    margin: 0 0 80px 0;
+}
+.section-mt{
+    margin: 80px 0 0 0;
+}
+.section-m{
+    margin: 80px 0px;
+}
+.white{
+    color: #fff !important;
+}
+.blue{
+    color: #8B1CE3 !important;
+}
+.pink{
+    color: #F61C85 !important;
+}
+.bgWhite{
+    background-color: #fff !important;
+}
+
+/* top section */
+
+
+.logo{
+    width: 60px;
+    position: relative;
+    z-index: 9;
+}
+
+.bg{
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.bg.scroll{
+    background-color: #fff;
+}
+
+nav li{
+    margin-left: 20px;
+    font-weight:bold;
+    position: relative;
+}
+
+nav a::before{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    bottom:10%;
+    left:0;
+    position: absolute;
+    transition: all 0.5s ease;
+
+}
+nav li:hover a::before{
+    width: 100%;
+}
+
+.homeTopbg{
+    background-image: url('../images/robo-bg.png');
+    background-size: cover;
+    min-height: 80vh;
+}
+
+/* .squre{
+    position: absolute;
+    width: 775px;
+    height: 825px;
+    border-radius: 200px;
+    background-color: #fff;
+    transform: rotate(70deg);
+    left: 0px;
+    top: -75px;
+    overflow: hidden;
+    z-index: 1;
+} */
+
+    /* .squreText{
+        position: relative;
+    } */
+
+.squreText h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.squreText p{
+    font-size: 24px;
+}
+
+.myBtn{
+    background-image: linear-gradient(to right,#F61C85,#8B1CE3);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.squreText button{
+    margin-top: 20px;
+}
+.img-robo{
+    position: absolute;
+    bottom: 0;
+    top: 45px;
+}
+.blue.bgWhite{
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+
+/* what we do */
+
+.we-do, .coading-path, .why-sec    p{
+    font-size: 20px;
+}
+
+
+/* path to coading */
+.bg-pink{
+    background-color:#FFEBEB;
+}
+.coading-path{
+    position: relative;
+}
+.super-boy{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    max-width:220px;
+    /* height: 50%; */
+}
+
+
+
+/*  key features */
+
+.feature-bg{
+    background-image: url('../images/GirlsWhoCode.png');
+    /* background-image: radial-gradient(rgba(0,0,0,0.1),#fff, transparent); */
+    /* background-size: 3px 3px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#feature .card {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.5s ease;
+}
+#feature .card:hover{
+    background-color: #F61C85 !important;
+    box-shadow: 5px 5px 30px #8B1CE3;
+}
+#feature .card:hover p{
+    color: white !important;
+}
+#feature .card:hover h5{
+    color: white !important;
+    font-weight: bold;
+}
+#logo_name{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    color:#000;
+}
+.navbar-collapse.justify-content-end.collapse.show{
+    background-color: #fff;
+    box-shadow: 0 5px 5px #ccc;
+}
+/* slider */
+.slider-bg{
+    background-image: url('../images/university2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#slider .card {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.5s ease;
+    margin: 0px 10px;
+}
+#slider .card-title{
+    font-weight: bold;
+}
+
+
+/* pricing */
+
+
+.price-card{
+    padding: 0px !important; 
+    margin-top: -120px;
+}
+#price .card{
+    margin-bottom: 150px;
+}
+.feature{
+    background-color: #fff;
+    border-radius: 15px;
+}
+#pricing .card{
+    margin: 10px !important;
+}
+/* .feature .col-3, .col-4,{
+    padding: 0;
+} */
+.feature p{
+    /* padding: 5px; */
+    font-size: 14px;
+    line-height:1.25;
+    font-weight: 600;
+}
+.feature h5{
+    font-weight: bold;
+}
+.prices h3{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.classes{
+    font-weight: bold;
+}
+.old-price{
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.discount{
+    /* margin-left: 12px; */
+    padding: 0px 6px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(255, 218, 11);
+    border-radius: 5px;
+}
+.per-class{
+    font-size: 18px;
+    color: rgb(67, 96, 253);
+}
+.lable-feature{
+    padding: 0px 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: rgb(67, 96, 253);
+    border-radius: 6px;
+}
+#schoolGirl{
+    position: relative;
+}
+
+.school-girl{
+    position: absolute;
+    bottom:-30%;
+    left:-40%;
+    max-width: 220px;
+}
+
+#schoolGirl-2{
+    position: relative;
+}
+.row{
+    margin-left:0;
+    margin-right:0;
+}
+.school-girl-2{
+    position: absolute;
+    top:50px;
+    right:50px;
+    max-width: 220px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+body{
+    overflow-x: hidden;
+}
+/* footer */
+
+.footer-bg{
+    background-image: linear-gradient(#F61C85,#8B1CE3);
+}
+.footer ul{
+    padding: 0;
+}
+.footer li{
+    list-style-type: none;
+    font-size: 16px;
+    margin:8px 0;
+}
+.footer p{
+    font-size: 16px;
+}
+.before-li li::before{
+    font-family: "Font Awesome 5 Free";
+   content: "\f121";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:00;
+   position: absolute;
+   top: auto;
+   right: 100%;
+}
+.before-li a:hover ::before{
+    font-weight:700;
+}
+.social-media{
+    margin-top: 50px;
+}
+.social-media li{
+    display: inline-block;
+    padding: 10px;
+}
+.footer .container-14{
+    border-bottom: 1px solid #fff;
+}
+
+#schoolGirl-2 #myTab{
+    margin-bottom:170px;
+}
+#schoolGirl-2 .nav-tabs .nav-link{
+    color:#777;
+    margin:10px;
+    background-color: #f9f9f9;
+}
+
+#schoolGirl-2 .nav-tabs .nav-link.active{
+    color:#fff;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#F61C85,#8B1CE3);
+}
+#schoolGirl-2 .nav-tabs .nav-link.active sup{
+    color:#fff;
+}
+.navbar.scroll{
+    box-shadow: 3px 0 4px #777;
+}
+.nav-tabs{
+    border-bottom: 0;
+}
+
+@media (max-width:1200px){
+    .section-pb{
+        padding: 0 0 60px 0;
+    }
+    .section-pt{
+        padding: 60px 0 0 0;
+    }
+    .section{
+        padding: 60px 0px;
+    }
+    .section-mb{
+        margin: 0 0 60px 0;
+    }
+    .section-mt{
+        margin: 60px 0 0 0;
+    }
+    .section-m{
+        margin: 60px 0px;
+    }
+
+    .squreText h2{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .squreText p{
+        font-size: 20px;
+    }
+    .we-do, .coading-path, .why-sec    p{
+        font-size: 18px;
+    }
+    .myBtn{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:991px){
+    .section-pb{
+        padding: 0 0 40px 0;
+    }
+    .section-pt{
+        padding: 40px 0 0 0;
+    }
+    .section{
+        padding: 40px 0px;
+    }
+    .section-mb{
+        margin: 0 0 40px 0;
+    }
+    .section-mt{
+        margin: 40px 0 0 0;
+    }
+    .section-m{
+        margin: 40px 0px;
+    }
+    .we-do, .coading-path, .why-sec    p{
+        font-size: 16px;
+    }
+    .squre{
+        display: none;
+    }
+    #weDo p{
+        text-align: center !important;
+    }
+    .price-card{
+        padding: 0px !important; 
+        margin-top: -150px;
+    }
+    .firdt-price-card{
+        margin-bottom: 100px;
+    }
+    .myBtn{
+        font-size: 16px;
+    }
+    .autoplay h5{
+        font-size: 16px ;
+    }
+    .school-girl-2{display: none;}
+}
+
+@media (max-width:768px){
+    .super-boy{
+        display: none;
+    }
+}
+
+@media (max-width:576px){
+
+}
